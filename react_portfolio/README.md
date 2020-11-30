@@ -1,60 +1,31 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Name: Mark Brazee React Portfolio
 
-## Available Scripts
+### Description of the Project: 
 
-In the project directory, you can run:
+The React Portfolio is a React application exhibiting my Bootcamp coding projects and homework.
 
-### `npm start`
+### Installation instructions: 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Within the react_portfolio folder type ‘npm start’ in the terminal command line. A response will appear in the command line indicating the Server is listening on http://localhost:3000. Open a web browser and enter ‘localhost:3000’ in the address line and type the Enter key. A page will appear with the Home Page of my portfolio. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Usage instructions: 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Contribution instructions: 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Please contribute to enhance the functionality of this code. Please adhere to the Code of Conduct for the Contributer Covenant, version 2.0, at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Test instructions: 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+No test files are provided for the user to test the application.
 
-## Learn More
+### Link to Usage Video:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+http://www.github.com/MarkBrazee/homework07/blob/main/video.gif
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Questions? 
 
-### Code Splitting
+Contact Mark Brazee at: m.brazee@comcast.net or at github.com/MarkBrazee
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
