@@ -1,0 +1,29 @@
+{
+  "name": "homework_unit20_react_portfolio",
+  "version": "1.0.0",
+  "description": "### Description of the Project:",
+  "main": "index.js",
+  "dependencies": {
+    "gh": "^2.8.9",
+    "gh-pages": "^3.1.0",
+    "pages": "^0.0.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkBrazee/homework_Unit20_React_Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkBrazee/homework_Unit20_React_Portfolio/issues"
+  },
+  "homepage": "https://github.com/MarkBrazee/homework_Unit20_React_Portfolio#readme"
+}
