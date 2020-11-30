@@ -1,5 +1,5 @@
 import React from "react";
-import Style from "./styles";
+import Style from "./style.css";
 
 
 function Home () {
