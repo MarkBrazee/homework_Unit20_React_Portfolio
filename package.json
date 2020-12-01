@@ -1,29 +1,41 @@
 {
-  "name": "homework_unit20_react_portfolio",
-  "version": "1.0.0",
-  "description": "### Description of the Project:",
-  "main": "index.js",
+  "homepage": "https://markbrazee.github.io/homework_Unit20_React_Portfolio/",
+  "name": "react_portfolio",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "gh": "^2.8.9",
-    "gh-pages": "^3.1.0",
-    "pages": "^0.0.16"
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.2.2",
+    "bootstrap": "^4.5.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^0.2.4"
   },
-  "devDependencies": {},
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
-
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MarkBrazee/homework_Unit20_React_Portfolio.git"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MarkBrazee/homework_Unit20_React_Portfolio/issues"
-  },
-  "homepage": "https://github.com/MarkBrazee/homework_Unit20_React_Portfolio#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

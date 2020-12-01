@@ -1,0 +1,67 @@
+body {
+  background-color: burlywood;
+}
+
+.bold {
+  font-size: 36px;
+  color: black;
+}
+h1 {
+  font-size: 150px;
+  font-family: "Merriweather", serif;
+  margin-left: 80px;
+}
+
+h3 {
+  margin-left: 80px;
+}
+
+img {
+  width: 250px;
+  height: auto;
+  margin-right: 20px;
+  margin-left: 80px;
+}
+
+.navbar-brand {
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+  color: rgb(43, 90, 25);
+  margin-left: 80px;
+}
+
+.footer {
+  width: 100vw;
+  display: block;
+  overflow: hidden;
+  padding: 30px 0;
+  box-sizing: border-box;
+  background-color: rgb(43, 90, 25);
+  position: fixed;
+  bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: auto;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+#main-bio,
+#bio-image {
+  float: left;
+}
+
+p {
+  margin-left: 80px;
+  margin-right: 80px;
+  font-family: "Merriweather", serif;
+}
+
+.gitHub,
+.linkedIn,
+.resume {
+  margin-left: 80px;
+}
