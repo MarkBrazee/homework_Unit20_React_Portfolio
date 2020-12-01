@@ -1,11 +1,11 @@
-import ReLinkct from "reLinkct";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
 
 function Portfolio() {
   return (
-    <div className="contLinkiner-fluid row">
-      <div className="cLinkrd col-sm-12 col-md-6">
+    <div className="container-fluid row">
+      <div className="card col-sm-12 col-md-6">
         <h1 className="bold">Portfolio </h1>
       </div>
       <br />
@@ -21,7 +21,7 @@ function Portfolio() {
       </div>
 
       <div>
-        <h3>Good ReLinkdMe GenerLinktor</h3>
+        <h3>Good ReaMe GenerLinktor</h3>
         <Link to="./images/goodReLinkdMeGen.pdf"></Link>.
       </div>
 
@@ -41,16 +41,13 @@ function Portfolio() {
       </div>
 
       <div className="gitHub">
-        <Link to="https://www.github.com/MLinkrkBrLinkzee" target="_blank">
+        <Link to="https://www.github.com/MarkBrazee" target="_blank">
           Visit my GitHub page
         </Link>
       </div>
 
       <div className="linkedIn">
-        <Link
-          to="https://www.linkedin.com/in/mLinkrkbrLinkzee/"
-          target="_blank"
-        >
+        <Link to="https://www.linkedin.com/in/markbrazee/" target="_blank">
           Vist my LinkedIn page
         </Link>
       </div>

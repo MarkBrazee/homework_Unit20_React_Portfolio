@@ -1,16 +1,17 @@
 import React from "react";
-// import Photo from "./images/Seagull2009-G7.jpg";
+import { Link } from "react-router-dom";
+import "./index.css";
 
 function Home() {
   return (
     <section id="main-bio">
       <h1 className="bold">About Me </h1>
 
-      <img
-        id="bio-image"
-        to="./Seagull2009-G7.jpg"
-        alt="Mark Brazee cycling photo"
-      />
+      <div>
+        {/* id="bio-image" */}
+        <Link to="./Seagull2009-G7.jpg"></Link>
+        {/* alt="Mark Brazee cycling photo" */}
+      </div>
 
       <p>
         I am an Oregon native. I've been married to my beautiful wife, Leigh,
