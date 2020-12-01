@@ -27,17 +27,17 @@ function Portfolio() {
 
       <div>
         <h3>Burger Logger</h3>
-        <Link to="./images/burger_logger..jpg"></Link>.
+        <Link to="./images/burger_logger.jpg"></Link>.
       </div>
 
       <div>
         <h3>Budget Tracker</h3>
-        <Link to="./images/budgetTracker..jpg"></Link>.
+        <Link to="./images/budgetTracker.jpg"></Link>.
       </div>
 
       <div>
         <h3>Employee Directory</h3>
-        <Link to="./images/employeeDirectory..jpg"></Link>
+        <Link to="./images/employeeDirectory.jpg"></Link>
       </div>
 
       <div className="gitHub">
@@ -59,12 +59,6 @@ function Portfolio() {
         >
           View my resume
         </Link>
-      </div>
-
-      <div className="email">
-        <p>
-          Email: <Link to="mailto:m.brazee@comcast.net">Mark Brazee</Link>
-        </p>
       </div>
     </div>
   );

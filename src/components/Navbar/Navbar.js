@@ -27,7 +27,7 @@ function Navbar() {
             Portfolio
           </a>
           <a className="nav-link" to="./contact.html">
-            Contacts
+            Contact
           </a>
         </div>
       </div>

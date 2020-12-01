@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -12,10 +13,10 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/Portfolio">
-            <Route path="./components/pages/Portfolio"></Route>
+            <Portfolio />
           </Route>
-          <Route path="/users">
-            <h1>users</h1>
+          <Route path="/Contact">
+            <Contact />
           </Route>
           <Route path="/">
             <Home />
