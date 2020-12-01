@@ -1,84 +1,34 @@
 import React from "react";
+// import Photo from "./images/Seagull2009-G7.jpg";
 
 function Home() {
   return (
-    <div class="container-fluid row">
-      <div class="card col-sm-12 col-md-6">
-        <h1 class="bold">Portfolio </h1>
-      </div>
-      <br />
+    <section id="main-bio">
+      <h1 className="bold">About Me </h1>
 
-      <div>
-        <h3>Lets Hit the Slopes- Project 1</h3>
-        <p>
-          Open Home Page PDF file{" "}
-          <a href="./assets/lhs_screen_shot.pdf">example</a>.
-        </p>
-      </div>
+      <img
+        id="bio-image"
+        to="./Seagull2009-G7.jpg"
+        alt="Mark Brazee cycling photo"
+      />
 
-      <div>
-        <h3>Shelf Indulgence Book Club- Project 2</h3>
-        <p>
-          Open Home Page PDF file{" "}
-          <a href="./assets/ShelfIndulgence.pdf">example</a>.
-        </p>
-      </div>
-
-      <div>
-        <h3>Good ReadMe Generator</h3>
-        <p>
-          Open a PDF file <a href="./assets/goodReadMeGen.pdf">example</a>.
-        </p>
-      </div>
-
-      <div>
-        <h3>Burger Logger</h3>
-        <p>
-          Open a PDF file <a href="./assets/burger_logger.pdf">example</a>.
-        </p>
-      </div>
-
-      <div>
-        <h3>Budget Tracker</h3>
-        <p>
-          Open a PDF file <a href="./assets/budgetTracker.pdf">example</a>.
-        </p>
-      </div>
-
-      <div>
-        <h3>Employee Directory</h3>
-        <p>
-          Open a PDF file <a href="./assets/employeeDirectory.pdf">example</a>.
-        </p>
-      </div>
-
-      <div class="gitHub">
-        <a href="https://www.github.com/MarkBrazee" target="_blank">
-          Visit my GitHub page
-        </a>
-      </div>
-
-      <div class="linkedIn">
-        <a href="https://www.linkedin.com/in/markbrazee/" target="_blank">
-          Vist my LinkedIn page
-        </a>
-      </div>
-
-      <div class="resume">
-        <a
-          href="https://docs.google.com/document/d/1pmge-tHHlhI3S2-g_hs-lB-e4qO_9wZVepZTgjeZSeE/edit?usp=sharing"
-          target="_blank"
-        >
-          View my resume
-        </a>
-      </div>
-
-      <div class="email">
-        <p>
-          Email: <a href="mailto:m.brazee@comcast.net">Mark Brazee</a>
-        </p>
-      </div>
-    </div>
+      <p>
+        I am an Oregon native. I've been married to my beautiful wife, Leigh,
+        for 30 years. We have two wonderful children, Tyler and Alyssa. I have
+        lived in Aurora, Colorado for 25 years. I am an University of Oregon
+        graduate, Go Ducks! I am a former Aurora Academy Charter School School
+        Board Member. I am concerned about the earth and what my children will
+        inherit from previous generations. I am an avid cyclist, riding 2,000 to
+        3,000 miles a year. I am looking to augment or change my professional
+        background after 30 years in the architectural industry. I love to ride
+        in the Colorado Rocky Mountains. I would love to ride in the French,
+        Swiss and Italian Alps someday, soon. I am a long time Colorado Rockies
+        and Seattle Mariners fan. I am a Star Wars and Star Trek fan. This is
+        the Way and Live Long and Prosper. I would like to be at the beach. I am
+        a life-long Democrat. I am looking to augment or change my professional
+        background after 30 years in the architectural industry.
+      </p>
+    </section>
   );
 }
 

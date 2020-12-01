@@ -1,5 +1,7 @@
 body {
-  background-color: burlywood;
+  /* background-image: url(./images/SilverFallsSP.jpg); */
+
+  background-color: rgb(245, 216, 176);
 }
 
 .bold {
@@ -25,9 +27,10 @@ img {
 
 .navbar-brand {
   font-family: "Merriweather", serif;
-  font-size: 24px;
-  color: rgb(43, 90, 25);
-  margin-left: 80px;
+  font-size: 48px;
+  margin-left: 50px;
+  margin-bottom: 36px;
+  color: rgb(77, 73, 73);
 }
 
 .footer {
@@ -54,7 +57,12 @@ img {
   float: left;
 }
 
+a {
+  font-size: 18px;
+}
+
 p {
+  font-size: 18px;
   margin-left: 80px;
   margin-right: 80px;
   font-family: "Merriweather", serif;
