@@ -10,11 +10,12 @@ body {
 .bold {
   font-size: 36px;
   color: black;
+  text-align: center;
 }
 h1 {
   font-size: 150px;
   font-family: "Merriweather", serif;
-  margin-left: 80px;
+  margin: center;
 }
 
 h3 {

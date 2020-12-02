@@ -1,45 +1,69 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import LHS from "../images/lhs_screen_shot.pdf";
+import Shelf from "../images/ShelfIndulgence.jpg";
+import GRG from "../images/goodReadMeGen.pdf";
+import Burger from "../images/burger_logger.jpg";
+import Budget from "../images/budgetTracker.jpg";
+import Employee from "../images/employeeDirectory.jpg";
+
 // import "./index.css";
 
 function Portfolio() {
   return (
-    <div className="container-fluid row">
-      <div className="card col-sm-12 col-md-6">
-        <h1 className="bold">Portfolio </h1>
+    <div className="container" id="main-bio">
+      <div className="row">
+        <div className="col">
+          <h1 className="bold">Portfolio </h1>
+        </div>
       </div>
       <br />
 
-      <div>
-        <h3>Lets Hit the Slopes- Project 1</h3>
-        <Link to="./images/lhs_screen_shot.pdf"></Link>.
-      </div>
+      <div className="row">
+        <div className=" col-6 col-sm-12 col-md-6">
+          <h3>Lets Hit the Slopes- Project 1</h3>
+          <br />
+          <img src={LHS} alt="Lets Hit the Slopes" />.
+        </div>
 
-      <div>
-        <h3>Shelf Indulgence Book Club- Project 2</h3>
-        <Link to="./Linkssets/ShelfIndulgence.jpg"></Link>.
+        <div className=" col-6 col-sm-12 col-md-6">
+          <h3>Shelf Indulgence- Project 2</h3>
+          <br />
+          <img src={Shelf} alt="Shelf Indulgence" />.
+        </div>
       </div>
+      <br />
+      <br />
+      <div className="row">
+        <div className=" col-6 col-sm-12 col-md-6">
+          <h3>Good ReadMe Generator</h3>
+          <br />
+          <img src={GRG} alt="Good Readme Generator" />.
+        </div>
 
-      <div>
-        <h3>Good ReaMe GenerLinktor</h3>
-        <Link to="./images/goodReLinkdMeGen.pdf"></Link>.
+        <div className=" col-6 col-sm-12 col-md-6">
+          <h3>Burger Logger</h3>
+          <br />
+          <img src={Burger} alt="Burger Logger" />.
+        </div>
       </div>
+      <br />
+      <br />
+      <div className="row">
+        <div className=" col-6 col-sm-12 col-md-6">
+          <h3>Budget Tracker</h3>
+          <br />
+          <img src={Budget} alt="Budget Tracker" />.
+        </div>
 
-      <div>
-        <h3>Burger Logger</h3>
-        <Link to="./images/burger_logger.jpg"></Link>.
+        <div className=" col-6 col-sm-12 col-md-6">
+          <h3>Employee Directory</h3>
+          <br />
+          <img src={Employee} alt="Employee Directory" />.
+        </div>
       </div>
-
-      <div>
-        <h3>Budget Tracker</h3>
-        <Link to="./images/budgetTracker.jpg"></Link>.
-      </div>
-
-      <div>
-        <h3>Employee Directory</h3>
-        <Link to="./images/employeeDirectory.jpg"></Link>
-      </div>
-
+      <br />
+      <br />
       <div className="gitHub">
         <Link to="https://www.github.com/MarkBrazee" target="_blank">
           Visit my GitHub page
