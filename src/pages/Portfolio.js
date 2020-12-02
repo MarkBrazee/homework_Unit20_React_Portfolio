@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LHS from "../images/lhs_screen_shot.pdf";
+import LHS from "../images/lhsScreenShot.jpg";
 import Shelf from "../images/ShelfIndulgence.jpg";
-import GRG from "../images/goodReadMeGen.pdf";
+import GRG from "../images/goodReadMeGen.jpg";
 import Burger from "../images/burger_logger.jpg";
 import Budget from "../images/budgetTracker.jpg";
 import Employee from "../images/employeeDirectory.jpg";
