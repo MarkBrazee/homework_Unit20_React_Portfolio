@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/homework_Unit20_React_Portfolio/static/css/main.cd52924a.chunk.css",
+    "main.js": "/homework_Unit20_React_Portfolio/static/js/main.5bcbc151.chunk.js",
+    "main.js.map": "/homework_Unit20_React_Portfolio/static/js/main.5bcbc151.chunk.js.map",
+    "runtime-main.js": "/homework_Unit20_React_Portfolio/static/js/runtime-main.31561f64.js",
+    "runtime-main.js.map": "/homework_Unit20_React_Portfolio/static/js/runtime-main.31561f64.js.map",
+    "static/css/2.43b2b750.chunk.css": "/homework_Unit20_React_Portfolio/static/css/2.43b2b750.chunk.css",
+    "static/js/2.66d97437.chunk.js": "/homework_Unit20_React_Portfolio/static/js/2.66d97437.chunk.js",
+    "static/js/2.66d97437.chunk.js.map": "/homework_Unit20_React_Portfolio/static/js/2.66d97437.chunk.js.map",
+    "static/js/3.e425658a.chunk.js": "/homework_Unit20_React_Portfolio/static/js/3.e425658a.chunk.js",
+    "static/js/3.e425658a.chunk.js.map": "/homework_Unit20_React_Portfolio/static/js/3.e425658a.chunk.js.map",
+    "index.html": "/homework_Unit20_React_Portfolio/index.html",
+    "static/css/2.43b2b750.chunk.css.map": "/homework_Unit20_React_Portfolio/static/css/2.43b2b750.chunk.css.map",
+    "static/css/main.cd52924a.chunk.css.map": "/homework_Unit20_React_Portfolio/static/css/main.cd52924a.chunk.css.map",
+    "static/js/2.66d97437.chunk.js.LICENSE.txt": "/homework_Unit20_React_Portfolio/static/js/2.66d97437.chunk.js.LICENSE.txt",
+    "static/media/Seagull2009-G7.005ad478.jpg": "/homework_Unit20_React_Portfolio/static/media/Seagull2009-G7.005ad478.jpg",
+    "static/media/ShelfIndulgence.6952ea32.jpg": "/homework_Unit20_React_Portfolio/static/media/ShelfIndulgence.6952ea32.jpg",
+    "static/media/budgetTracker.045681ec.jpg": "/homework_Unit20_React_Portfolio/static/media/budgetTracker.045681ec.jpg",
+    "static/media/burger_logger.555b76ea.jpg": "/homework_Unit20_React_Portfolio/static/media/burger_logger.555b76ea.jpg",
+    "static/media/employeeDirectory.1ebcc9ec.jpg": "/homework_Unit20_React_Portfolio/static/media/employeeDirectory.1ebcc9ec.jpg",
+    "static/media/goodReadMeGen.d6073ea4.jpg": "/homework_Unit20_React_Portfolio/static/media/goodReadMeGen.d6073ea4.jpg",
+    "static/media/lhsScreenShot.197a03f9.jpg": "/homework_Unit20_React_Portfolio/static/media/lhsScreenShot.197a03f9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31561f64.js",
+    "static/css/2.43b2b750.chunk.css",
+    "static/js/2.66d97437.chunk.js",
+    "static/css/main.cd52924a.chunk.css",
+    "static/js/main.5bcbc151.chunk.js"
+  ]
+}
