@@ -20,15 +20,15 @@ function Navbar() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
-          <a className="nav-link active" to="./index.html">
+          <Link className="nav-link" to="/">
             About Me<span className="sr-only">(current)</span>
-          </a>
-          <a className="nav-link" to="./portfolio.html">
+          </Link>
+          <Link className="nav-link" to="/portfolio">
             Portfolio
-          </a>
-          <a className="nav-link" to="./contact.html">
+          </Link>
+          <Link className="nav-link" to="/contact">
             Contact
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
